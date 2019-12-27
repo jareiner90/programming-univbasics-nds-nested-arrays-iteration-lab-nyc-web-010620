@@ -12,7 +12,7 @@ def join_ingredients(src)
     topping_count = 0
       while topping_count < src[pizza_count].count do
         pizza_array << "I love #{src[pizza_count][0]} and #{src[pizza_count][1]} on my pizza"
-        topping_count += 1 
+        topping_count += 1
       end
     pizza_count += 1
   end
