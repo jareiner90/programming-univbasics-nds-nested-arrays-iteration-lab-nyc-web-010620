@@ -21,14 +21,14 @@ def find_greater_pair(src)
   # that are in the inner Arrays
   larger_array =[]
   count = 0
-  while count < src.count do 
+  while count < src.count do
     if src[count][0] > src[count][1]
       larger_array.push(src[count][0])
     elsif src[count][1] > src[count][0]
       larger_array.push(src[count][1])
     end
-    count += 1 
-  end 
+    count += 1
+  end
   return larger_array
 end
 
