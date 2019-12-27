@@ -9,14 +9,10 @@ def join_ingredients(src)
   pizza_count = 0
   pizza_array = []
   while pizza_count < src.count do
-    topping_count = 0
-      while topping_count < src[pizza_count].count do
-        pizza_array << "I love #{src[pizza_count][0]} and #{src[pizza_count][1]} on my pizza"
-        topping_count += 1
-      end
-    pizza_count += 1
+    pizza_array << "I love #{src[pizza_count][0]} and #{src[pizza_count][1]} on my pizza"
+  pizza_count += 1
   end
-    return pizza_array
+  return pizza_array
 end
 
 def find_greater_pair(src)
