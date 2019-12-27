@@ -9,8 +9,8 @@ def join_ingredients(src)
   pizza_count = 0
   while pizza_count < src.count do
     pizza_array = []
-    topping_count = 0 
-      while topping_count < src[pizza_count].count do 
+    topping_count = 0
+      while topping_count < src[pizza_count].count do
         "I love #{src[pizza_count][0]} and #{src[pizza_count][1]} on my pizza"
     end
 end
