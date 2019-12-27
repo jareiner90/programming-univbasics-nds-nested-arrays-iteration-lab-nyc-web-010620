@@ -8,12 +8,10 @@ def join_ingredients(src)
   # As such, there should be a new String for each inner array, or pair
   pizza_count = 0
   while pizza_count < src.count do
-    topping_count = 0
-      while topping_count < src[pizza_count].count do
-        puts "I love #{src[pizza_count[0]]} and #{src[pizza_count[1]]} on my pizza"
-        topping_count += 1
-      end
-      pizza_count += 1
+    pizza_array = []
+    topping_count = 0 
+      while topping_count < src[pizza_count].count do 
+        "I love #{src[pizza_count][0]} and #{src[pizza_count][1]} on my pizza"
     end
 end
 
